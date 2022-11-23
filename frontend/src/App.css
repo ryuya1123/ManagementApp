@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+#graph-icon {
+
+}
+
+#book-icon {
+  
+}
+
+#edit-icon {
+  color: '#fff';
+  left: 100px;
+  top: 20px;
+}

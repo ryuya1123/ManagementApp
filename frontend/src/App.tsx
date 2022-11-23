@@ -1,26 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { IconContext } from 'react-icons';
+import { MdAutoGraph, MdEditNote } from 'react-icons/md';
+import { GiBookshelf } from 'react-icons/gi';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <FrontIcon></FrontIcon>
       </header>
     </div>
   );
+}
+
+const FrontIcon: React.FC = () => {
+  return (
+    <IconContext.Provider value={{ color: '#fff', size: '100px' }}>
+      <div id="graph-icon"><MdAutoGraph /></div>
+      <div id="book-icon"><GiBookshelf /></div>
+      <div id="edit-icon"><MdEditNote /></div>
+    </IconContext.Provider>
+  )
 }
 
 export default App;
