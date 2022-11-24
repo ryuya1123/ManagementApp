@@ -14,14 +14,20 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #68878D;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding-top: 5rem;
+  font-size: calc(50px + 2vmin);
   color: white;
+}
+.App-body {
+  background-color: #68878D;
+  min-height: 90vh;
+  padding-top: 5rem;
 }
 
 .App-link {
@@ -38,15 +44,15 @@
 }
 
 #graph-icon {
-
+  color: black;
+  margin-bottom: 10rem;
 }
 
 #book-icon {
-  
+ margin-right: 50rem;
 }
 
 #edit-icon {
-  color: '#fff';
-  left: 100px;
-  top: 20px;
+  margin-top: -6.3rem;
+  margin-left: 50rem;
 }

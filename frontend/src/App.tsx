@@ -8,8 +8,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <FrontIcon></FrontIcon>
+        Management
+        System
       </header>
+      <body className="App-body">
+        <FrontIcon></FrontIcon>
+      </body>
     </div>
   );
 }
